@@ -125,7 +125,7 @@ pytest_args = [
     "--disable-warnings",
     "--assert=plain",
     "--maxfail=1",
-    "--cov=tdna_data_processing_nb",  # <-- fix: match import name used by tests
+    "--cov=avtura_business_logic",  # <-- fix: match import name used by tests
     f"--cov-report=html:{htmlcov_dir}",
     f"--cov-report=xml:{xml_report}",
     "--cov-report=term",
